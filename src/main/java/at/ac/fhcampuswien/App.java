@@ -53,11 +53,11 @@ public class App {
         Scanner s = new Scanner(System.in);
         int x = s.nextInt();
         int y = s.nextInt();
-        System.out.print("Before Swap:\r\nx: y: ");
+        System.out.print("Before Swap:\nx: y: ");
         x = x + y;
         y = x - y;
         x = x - y;
-        System.out.println("After Swap:\r\nx: "+x+"\r\ny: "+y);
+        System.out.println("After Swap:\nx: "+x+"\ny: "+y);
     }
 
     //todo Task 6
